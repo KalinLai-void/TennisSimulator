@@ -56,7 +56,7 @@ Last Demo Video: [https://drive.google.com/file/d/1IS7XXpkDAJFSkqCL16LljOe32Ng_h
   
   ---
 - **LoadWebcam.py — Webcam‑capture thread**    
-  - **Core function:** Wraps `cv2.VideoCapture` in a `threading.Thread`, reads frames asynchronously, and pushes them to a fixed‑length `queue`.  
+  - **Purpose:** Wraps `cv2.VideoCapture` in a `threading.Thread`, reads frames asynchronously, and pushes them to a fixed‑length `queue`.  
   ```python
   import threading
   import queue
@@ -107,7 +107,7 @@ Last Demo Video: [https://drive.google.com/file/d/1IS7XXpkDAJFSkqCL16LljOe32Ng_h
   ```
   ---
 - **DetectTennis‑unity‑indoor.py — Indoor hard‑court live detection**    
-  - **Core function:** Purpose: Indoor‑specific HSV & scales, computes trajectory and writes to output.csv.  
+  - **Purpose:** Indoor‑specific HSV & scales, computes trajectory and writes to output.csv.  
   ```python
   for cnt1 in contours1:
       area1 = cv2.contourArea(cnt1)
