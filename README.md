@@ -16,21 +16,21 @@ Follow the steps in this link to download [TracketV3](https://github.com/alenzen
 | Anaconda 3 | [Download](https://www.anaconda.com/) |
 | Python | version 3.8.18 |
 | Unity | version 2021.3.18f1 |
-|  |
+| Python Package(lib) | [requirements.txt](/requirements.txt) |
 ---
 ## 下載 (Installation)
 1. git clone/download this repository. 
-2. download the models and lib files from here, and unzip to this repository's root. 
+2. download the models and lib files from [requirements.txt](/requirements.txt), and unzip to this repository's root. 
 3. create your python env (Anaconda and Python 3.10.9). 
 4. activate your env, and pip install -r requirement.txt. 
 5. run Main.py! 
 
 ---
 ## How to use?
-
-```bash
-git clone https://github.com/<your‑id>/TennisVisionTracker.git
-cd TennisVisionTracker
-python -m venv .venv         # 或 conda create -n tvt python=3.10
-source .venv/Scripts/activate
-pip install -r requirements.txt
+cap is the video path
+csv is the coordinates of the tennis ball in the film
+```Python
+cap1=cv2.VideoCapture(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Side-View/TrackNet/OCS17_pred.mp4")
+cap2=cv2.VideoCapture(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Top-View/TrackNet/OCT17_pred.mp4")
+csv_cap1=(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Side-View/TrackNet/OCS17_ball.csv")
+csv_cap2=(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Top-View/TrackNet/OCT17_ball.csv")
