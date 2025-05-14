@@ -29,25 +29,27 @@ Follow the steps in this link to download [TracketV3](https://github.com/alenzen
 ---
 ## How to use?
 ### set path
-cap is the video path  
-csv is the coordinates of the tennis ball in the film  
-```python
-cap1=cv2.VideoCapture(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Side-View/TrackNet/OCS17_pred.mp4")
-cap2=cv2.VideoCapture(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Top-View/TrackNet/OCT17_pred.mp4")
-csv_cap1=(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Side-View/TrackNet/OCS17_ball.csv")
-csv_cap2=(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Top-View/TrackNet/OCT17_ball.csv")
-
-```
----
-### Set the corner of the court to view the camera
-```python
-pX1, pY1 = 507, 296 # left-top corner
-pX2, pY2 = 1315, 283 # right-top corner
-pX3, pY3 = 112, 909 # left-bottom corner
-pX4, pY4 = 1717, 872 # right-bottom corner
-```
-### Start the tennis simulation
-1. Open Unity and press the strat_button  
-![GitHub图像](/unity_screen.png)  
-2. Open Mai.py
-3. Watch the result on Unity
+* In main.py  
+  cap is the video path  
+  csv is the coordinates of the tennis ball in the film  
+  ```python
+  cap1=cv2.VideoCapture(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Side-View/TrackNet/OCS17_pred.mp4")
+  cap2=cv2.VideoCapture(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Top-View/TrackNet/OCT17_pred.mp4")
+  csv_cap1=(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Side-View/TrackNet/OCS17_ball.csv")
+  csv_cap2=(r"D:/tennis_MovieData/Datasets/Datasets/Outdoor Field/Cross-court Shot/Top-View/TrackNet/OCT17_ball.csv")
+  
+  ```
+  ---
+  ### Set the corner of the court to view the camera
+  ```python
+  pX1, pY1 = 507, 296 # left-top corner
+  pX2, pY2 = 1315, 283 # right-top corner
+  pX3, pY3 = 112, 909 # left-bottom corner
+  pX4, pY4 = 1717, 872 # right-bottom corner
+  ```
+  ### Start the tennis simulation
+  1. Open Unity and press the strat_button  
+  ![GitHub图像](/unity_screen.png)  
+  2. Open Main.py
+  3. Watch the result on Unity
+* 
