@@ -12,7 +12,6 @@ A vision‑based pipeline that detects tennis ball trajectories from *dual‑vie
 3. [安裝](#安裝)  
 4. [使用方式](#使用方式)  
 5. [檔案結構](#檔案結構)  
-6. [常見問題](#常見問題)  
 7. [License](#license)  
 8. [Citation](#citation)
 
