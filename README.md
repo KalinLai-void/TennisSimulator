@@ -29,7 +29,7 @@ Follow the steps in this link to download [TracketV3](https://github.com/alenzen
 ---
 ## How to use?
 ### set path
-* In main.py  
+- **Main.py:**  
   cap is the video path  
   csv is the coordinates of the tennis ball in the film  
   ```python
@@ -52,4 +52,29 @@ Follow the steps in this link to download [TracketV3](https://github.com/alenzen
   ![GitHub图像](/unity_screen.png)  
   2. Open Main.py
   3. Watch the result on Unity
-* 
+
+# Program Function Overview
+
+> The following summarizes each **Python** script’s functions and workflows, with a minimal `python` code snippet that showcases its **key use‑case**.  
+
+---
+
+## LoadWebcam.py — 視訊擷取執行緒(Webcam‑capture thread)  
+
+- **Core function:** Wraps `cv2.VideoCapture` in a `threading.Thread`, reads frames asynchronously, and pushes them to a fixed‑length `queue`.  
+
+```python
+from LoadWebcam import LoadWebcam
+import cv2
+
+# Start the camera thread and display the image  
+cam = LoadWebcam(src=0, skip=1)
+for frame in cam:                    # iterate through live frames
+    cv2.imshow("Webcam", frame)
+    if cv2.waitKey(1) & 0xFF == 27:  # ESC to quit
+        break
+cam.stop()
+```
+
+
+
