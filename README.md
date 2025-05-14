@@ -50,7 +50,7 @@ Last Demo Video: [https://drive.google.com/file/d/1IS7XXpkDAJFSkqCL16LljOe32Ng_h
   - **Start the tennis simulation**  
     1. Open Unity and press the strat_button  
     ![GitHub图像](/unity_screen.png)  
-    2. Open Main.py
+    2. Open Main.py and excute
     3. Watch the result on Unity
   
   
