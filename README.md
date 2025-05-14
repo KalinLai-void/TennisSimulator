@@ -21,9 +21,10 @@ Follow the steps in this link to download [TracketV3](https://github.com/alenzen
 ## 下載 (Installation)
 1. git clone/download this repository. 
 2. download the models and lib files from [requirements.txt](/requirements.txt), and unzip to this repository's root. 
-3. create your python env (Anaconda and Python 3.10.9). 
-4. activate your env, and pip install -r requirement.txt. 
-5. run Main.py! 
+3. create your python env (Anaconda and Python 3.8.18). 
+4. activate your env, and pip install -r requirement.txt.
+5. Download [Unity](https://unity.com/download)
+6. choose the select New Project in Uinty's project and select the correct version
 
 ---
 ## How to use?
