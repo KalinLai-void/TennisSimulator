@@ -48,4 +48,6 @@ pX4, pY4 = 1717, 872 # right-bottom corner
 ```
 ### Start the tennis simulation
 1. Open Unity and press the strat_button  
-![GitHub图像](/unity_screen.png)
+![GitHub图像](/unity_screen.png)  
+2. Open Mai.py
+3. Watch the result on Unity
